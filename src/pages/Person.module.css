@@ -1,0 +1,54 @@
+.background {
+    background: url("home-background.jpg");
+    background-size: cover;
+    height: 90vh;
+    position: absolute;
+    width: 100%;
+    color: white;
+}
+
+.cursor:hover {
+    cursor: pointer;
+}
+
+.container {
+    padding: 10px;
+    background-color: #333;
+    border-radius: 5px;
+    box-shadow: 0 0 2rem 3px black;
+    position: absolute;
+    width: 90vh;
+    top: 3vh;
+    left: 0;
+    right: 0;
+    margin: auto;      
+}
+
+.container ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 10px;
+    margin-left: 5px;
+}
+
+.container h1 {
+    padding: 0;
+    margin: 0;
+    margin-bottom: 10px;
+    margin-left: 5px;
+}
+
+#table {
+    margin: auto;  
+}
+
+.graph {
+    width: 87vh;
+    height: 400px;
+    border: 2px solid rgb(29, 29, 29);
+    color: white;
+    background-color: #343a40;
+    margin: auto;  
+    margin-top: 10px;
+}

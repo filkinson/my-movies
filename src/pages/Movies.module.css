@@ -1,0 +1,92 @@
+.background {
+    background: url("home-background.jpg");
+    background-size: cover;
+    height: 90vh;
+    position: absolute;
+    width: 100%;
+    font-size: 30px;
+}
+
+#table {
+    padding: 30px;
+    background-color: #333;
+    border-radius: 5px;
+    box-shadow: 0 0 1rem 1px black;
+    position: absolute;
+    top: 10vh;
+    left: 0;
+    right: 0;
+    margin: auto;  
+}
+
+.cursor:hover {
+    cursor: pointer;
+  }
+
+.selector-bar {
+    background-color: #333;
+    position: absolute;
+    top: 2.5vh;
+    padding: 10px;
+    width: 136vh;
+    left: 0;
+    right: 0;
+    margin: auto;
+    border-radius: 5px;
+    box-shadow: 0 0 1rem 1px black;
+    display: flex;
+    align-items: center;
+}
+
+.selector-bar input[type="text"] {
+    position: absolute;
+    left: 30px;
+    border: 2px solid rgb(19, 19, 19);
+    font-size: 1rem;
+    color: white;
+    background-color: #343a40;
+    padding: 0.5rem;
+    border-radius: 5px;
+    width: 50vh;
+}
+
+.selector-bar input[type="text"]::placeholder {
+    color: grey;
+}
+
+.selector-bar button {
+    border: none;
+    background-color: #003468;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border-radius: 3px;
+    margin-left: 0.5rem;
+    font-size: 1rem;
+    cursor: pointer;
+    position: absolute;
+    right: 30px;
+}
+
+.selector-bar button:hover {
+    background-color: #405469;
+}
+
+.selector-bar select {
+    left: 53vh;
+    position: relative;
+    border: 2px solid rgb(19, 19, 19);
+    font-size: 1rem;
+    color: white;
+    background-color: #343a40;
+    padding: 0.47rem;
+    border-radius: 5px;
+    width: 9vh;
+    cursor: pointer;
+}
+
+.reminder {
+    font-size: 12px;
+    position: relative;
+    top: 5px; 
+}
+  

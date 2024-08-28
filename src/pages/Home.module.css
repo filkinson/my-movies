@@ -1,0 +1,21 @@
+.background {
+    background: url("home-background.jpg");
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    height: 90vh;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+}
+
+.text {
+    color: white;
+    background-color: black;
+    text-align: center;
+    padding: 10px;
+    box-shadow: 0 0 1rem 4px black;
+    border-radius: 5px;
+    backdrop-filter: blur(5px);
+}

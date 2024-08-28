@@ -1,0 +1,64 @@
+.background {
+    background: url("home-background.jpg");
+    background-size: cover;
+    height: 90vh;
+    position: absolute;
+    width: 100%;
+    color: white;
+}
+
+.cursor:hover {
+    cursor: pointer;
+}
+
+
+.container {
+    padding: 10px;
+    background-color: #333;
+    border-radius: 5px;
+    box-shadow: 0 0 2rem 3px black;
+    position: absolute;
+    width: 101vh;
+    top: 10vh;
+    left: 0;
+    right: 0;
+    margin: auto;      
+}
+
+.container h1 {
+    margin: 0;
+    padding: 0;
+    width: 64vh;
+}
+
+.container ul {
+    list-style-type: none;
+    padding-left: 10px;
+    width: 64vh;
+}
+
+.container img {
+    position: inherit;
+}
+
+.plot {
+    font-style: italic;
+}
+
+.ratings {
+    position: inherit;
+}
+
+.rightSide {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 300px;
+}
+
+.rightSide ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    width: auto;
+}
